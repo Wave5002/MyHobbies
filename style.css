@@ -1,0 +1,222 @@
+/* Global */
+* {margin: 0;
+padding: 0;
+}
+body {
+font-family: roboto, sans-serif;
+}
+
+
+/* Header */
+
+
+#main-nav {
+    background-color:#cae2eb;
+    height: 120px;
+    text-align: right;
+}
+.logo-holder {
+    float: left;
+    padding-top: 1px;
+    padding-left: 20px;
+    text-align: left;
+    }
+.logo-img {
+    width: 35%;
+    }
+#main-menu {
+    list-style: none;
+}
+.main-menu-item {
+    display: inline-block;
+}
+.main-menu-item a {
+    color:#FAFAD2;
+    text-decoration:none ;
+    background-color: #4682B4;
+    padding: 12px;
+    margin: 30px 8px; 
+    border-radius: 5px;
+    display:inline-block;
+}
+.main-menu-item a:hover {
+background-color: rgb(0, 76, 139);
+}
+
+
+/* COVER */
+
+.cover{
+    background: url(images/fon1.jpg);
+background-position: center;
+background-size: cover;
+color:white;
+padding: 180px;
+}
+.cover-dimmer {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 70px 20%;
+    text-align: center;
+}
+h1 {
+    font-family: Arial;
+    font: size 2rem;
+    padding-top: 10px;
+    margin-bottom: 1rem;
+}
+h4 {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+
+
+/* Bakery menu */
+
+
+.service {
+    background-color: #abd5ee;
+    background-size: cover;
+    height: 700px;
+    margin:auto;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    text-align: center;
+}
+.service1 {
+    background-color: #629abc;
+    background-size: cover;
+    height: 700px;
+    margin:auto;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    text-align: center;
+}
+h2 {
+    padding-bottom: 0.5rem;
+    font-size: 3rem;
+    color:#4682B4;
+}
+.subheader {
+    padding:1rem 15rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color:#Fff;
+}
+.torty {
+    float:left;
+    width:27%;
+    border:solid 1px #dbe8ec;
+    margin: 1%; 
+    padding:2%;
+    background-color: #cae2eb;
+}
+.torty1 {
+    float:left;
+    width:40%;
+    border:solid 1px #dbe8ec;
+    margin: 1%; 
+    padding:2%;
+    background-color: #cae2eb;
+}
+h3 {
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+.img-torty {
+    width: 100%;
+    height: 450px;
+}
+.img-torty1 {
+    width: 100%;
+    height: 450px;
+}
+.button-torty {
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: rgb(220, 120, 20) ;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 0.7rem;
+}
+.button-torty a {
+    text-decoration: none;
+    color: #fff;
+}
+.clear-float {
+    background-color: #fff;
+    height: ;
+    clear: both;
+    margin:10px 0 ;
+}
+
+
+ /*About us  */
+
+ .aboutus {
+    padding-top: 3rem;
+    margin: auto;
+    text-align: center;
+ }
+ .sub-bakery {
+    padding: 0.7rem 7rem;
+    margin:10px;
+    font-size: 1.5rem;
+ }
+ .usluga {
+    float:left;
+    width:17%;
+    margin:2%;
+    padding:2% ;
+ }
+ .img-usluga {
+    width: 100%;
+    height: 150px;
+ }
+ .opisanie {
+    font-weight: bold;
+ }
+ marquee {
+    font-size: 1.5rem;
+    color: #4682B4;
+}
+/* FOOTER */
+
+footer{
+    background-color: #cae2eb;
+    padding:20px;
+}
+.footer-table {
+width: 80%;
+margin: auto;
+border: 0;
+}
+td {
+    color:#4682B4;
+    border: 0;
+    width: 33%;
+    line-height: 1.8rem;
+    vertical-align: top;
+}
+.logo1 { width:48%;}
+.chanels {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.footer-table td a {
+    text-decoration: none;
+    color:rgb(50, 143, 190);
+}
+
+.ending {
+    background-color: #4682B4;
+}
+.ending-text {
+    text-align: center;
+    padding:1rem;
+}
